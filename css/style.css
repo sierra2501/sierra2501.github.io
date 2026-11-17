@@ -2,33 +2,50 @@ p{
   text-indent: 1.6rem;
 }
 
+/* ---------------------------
+  wrapper
+--------------------------- */
 #tp-wrapper{
   max-width: 700px;
   margin: 0 auto;
+  padding: 0 25px;
 }
 
+/* ---------------------------
+  header
+--------------------------- */
 #tp-header{
+  text-align: center;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 75px;
 }
-
-.tp-img-wrap{
+#tp-header h1{
+  border: 3px solid rgb(175, 175, 175);
+  border-radius: 15px;
+  margin-bottom: 75px;
+}
+.tp-header-img-wrap{
   display: block;
   text-align: center;
 }
-.tp-img{
+.tp-header-img{
   max-width: 250px;
   width: 100%;
   border-radius: 15px;
 }
-
-.tp-border-solid{
-  border-bottom: solid 2px rgb(175, 175, 175);
+/* ---------------------------
+  nav
+--------------------------- */
+.tp-nav{
+  background-color: #f0f0f0;
+  /*background-color: #fafafa;*/
+  padding: 10px 10px 10px 20px;
+  margin-bottom: 50px;
+  border-radius: 15px;
 }
-.tp-border-dotted{
-  border-bottom: dotted 2px rgb(175, 175, 175);
-}
-
+/* ---------------------------
+  section/article
+--------------------------- */
 .tp-section{
   padding-bottom: 30px;
   margin-bottom: 30px;
@@ -38,13 +55,40 @@ p{
   margin-bottom: 20px;
   
 }
+/* ---------------------------
+  footer
+--------------------------- */
 #tp-footer{
   padding-bottom: 50px;
 }
 
+/* ---------------------------
+  link
+--------------------------- */
 .tp-link{
   display: block;
 }
 .tp-link a{
   padding-left:10px;
+}
+
+/* ---------------------------
+  border
+--------------------------- */
+.tp-border-solid{
+  border-bottom: solid 2px rgb(175, 175, 175);
+}
+.tp-border-dotted{
+  border-bottom: dotted 2px rgb(175, 175, 175);
+}
+
+.tp-circle-logo-wrap{
+  display: block;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.tp-circle-logo{
+  max-width: 250px;
+  width: 100%;
 }

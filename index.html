@@ -19,29 +19,34 @@
 
         <!-- ヘッダー -->
         <header id="tp-header">
-            <span class="tp-img-wrap">
-                <img class="tp-img" src="img/icon.png" />
+            <h1>sierra2501.github.io</h1>
+            <span class="tp-header-img-wrap">
+                <img class="tp-header-img" src="img/icon.png" />
             </span>
         </header>
 
+        <nav class="tp-nav">
+            <h2>目次</h2>
+            <ol>
+                <li><a href="#my-name-is">自己紹介</a></li>
+                <li>
+                    <a href="#circle">サークル活動</a>
+                    <ol>
+                        <li><a href="#itaku">委託販売</a></li>
+                        <li><a href="#book">リポジトリ</a></li>
+                        <li><a href="#free-paper">フリーペーパー</a></li>
+                    </ol>
+                </li>
+            </ol>
+        </nav>
+
         <main>
-            <section class="tp-section">
-                <h2>インデックス</h2>
-                <table>
-                    <tbody>
-                        <tr>
-                            <td><a href="#1">sierra2501</a></td>
-                        </tr>
-                        <tr>
-                            <td><a href="#2">サークル活動</a></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-            <section id="1" class="tp-section">
-                <h2 class="tp-border-solid">sierra2501</h2>
+            <!-- ▼ 自己紹介 -->
+            <section id="my-name-is" class="tp-section">
+                <h2 class="tp-border-solid">自己紹介</h2>
                 <br />
                 <article class="tp-article">
+                    <p><b>sierra（ところにより、sierra2501）</b>というハンドル名で活動しています。</p>
                     <p>モデリングしたり、3Dプリンタで出力してみたり、プログラム書いたり、薄い本書いたりしています。</p>
                 </article>
                 <article class="tp-article">
@@ -69,21 +74,19 @@
                     </div>
                 </article>
             </section>
-
-            <section id="2" class="tp-section">
+            
+            <!-- ▼ サークル活動 -->
+            <section id="circle" class="tp-section">
                 <h2 class="tp-border-solid">サークル活動</h2>
-                <br />
-                <article class="tp-article">
-                    <br />
-                    <span class="tp-img-wrap">
-                        <img class="tp-img" src="img/logo2.png" />
-                    </span>
-                    <br />
-                    <p>tenteroring projectとして同人活動をしています。主に技術書典や技書博に参加しています。</p>
-                    <br />
-                    <br />
-                </article>
                 <article class="tp-article tp-border-dotted">
+                    <span class="tp-circle-logo-wrap">
+                        <img class="tp-circle-logo" src="img/logo2.png" />
+                    </span>
+                    <p>tenteroring projectとして同人活動をしています。主に技術書典や技書博に参加しています。</p>
+                </article>
+
+                <!-- 委託販売 -->
+                <article id="itaku" class="tp-article tp-border-dotted">
                     <h3>委託販売</h3>
                     <p><a href="https://www.switch-science.com/">スイッチサイエンス</a>様にて委託販売を行っております。</p>
                     <ul>
@@ -91,7 +94,9 @@
                         <li>サポートページ：<a href="./support.html">./support.html</a></li>
                     </ul>
                 </article>
-                <article class="tp-article tp-border-dotted">
+
+                <!-- リポジトリ -->
+                <article id="rep" class="tp-article tp-border-dotted">
                     <h3>おウチIoTのリポジトリ</h3>
                     <p>同人誌「おウチIoT おウチの環境を計測して監視する。」で使用したプログラムやスクリプト、設定ファイルは以下のリポジトリに格納しています。</p>
                     <ul>
@@ -99,7 +104,8 @@
                     </ul>
                 </article>
 
-                <article class="tp-article tp-border-dotted">
+                <!-- フリーペーパー -->
+                <article id="free-paper" class="tp-article tp-border-dotted">
                     <h3>フリーペーパー</h3>
                     <p>即売会などで頒布しているフリーペーパーのアーカイブです。</p>
                     <br />
