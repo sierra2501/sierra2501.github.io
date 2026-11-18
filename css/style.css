@@ -23,6 +23,10 @@ p{
   border: 3px solid rgb(175, 175, 175);
   border-radius: 15px;
   margin-bottom: 75px;
+  padding: 0 10px;
+  font-size: clamp(2.4rem, 7vw, 4rem);  /* 24px〜40px。1rem=10px前提 */
+  line-height: 1.6;                      /* 折り返しても行間が開きすぎない */
+  overflow-wrap: anywhere;
 }
 .tp-header-img-wrap{
   display: block;
@@ -33,6 +37,17 @@ p{
   width: 100%;
   border-radius: 15px;
 }
+
+@media (max-width: 480px){
+  #tp-header{
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  #tp-header h1{
+    margin-bottom: 40px;
+  }
+}
+
 /* ---------------------------
   nav
 --------------------------- */
